@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+
+  <title>the pursuit of hoppiness</title>
+</head>
+
+<body>
+
+  <header class="header" id="page-header">
+    <img src="assets/images/project_header_d.png" alt="" class="head-img">
+  </header>
+
+  <div class="sticky-footer">
+
+    <div class="container">
+      <div class="weather-container">
+        <div class="weather"></div>
+      </div>
+    </div>
+
+    <aside class="aside">
+      <main class="container-main">
+        <div class="search-container">
+          <div class="search-column">
+            <form class="form" id="city-search-form">
+              <input id="city" type="text" class="form-input" placeholder="Search for a City" />
+              <div class="buttons">
+                <button class="btn btn-primary" type="submit" id="search-btn" onmousedown="sfx.play()">
+                  <i class="em em-beers" aria-role="presentation" aria-label="CLINKING BEER MUGS"></i>
+                </button>
+
+
+                <a href="https://www.uber.com/us/en/ride/" target="_blank"><img class="social-icons"
+                    src="./assets/images/uver1.png"></a>
+              </div>
+
+            </form>
+            <div class="past-search border" id="past-search-buttons"></div>
+          </div>
+
+        </div>
+
+    </aside>
+
+    <div class="weather-div">
+      <div class="hide weather-display" id="display-weather">
+        <h2 class="city"></h2>
+        <p class="temp"></p>
+        <img src="" class="icon" />
+      </div>
+    </div>
+
+
+    <div class="brew-container" id="brew-container">
+
+    </div>
+  </div>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./Assets/js/script.js"></script>
